@@ -11,7 +11,7 @@ fi
 echo "[Source code]"
 cat $1
 echo "---------------------------------------------"
-echo "User Name: Sangji Kim" ; echo "Student Number: 12171591"
+echo "User Name: Sangji Kim"
 echo "[ MENU ]"
 echo -e '1. Enable/disable empty line removal\n2. Enable/disable comment removal\n3. Enable/disable duplicate whitespaces among words\n4. Add the line number\n5. Change the variable name\n6. Remove ${} in arithmathic expansion\n7. Export new file\n8. Exit\n---------------------------------------------'
 while (( CH != 8 ))
